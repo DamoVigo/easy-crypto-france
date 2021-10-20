@@ -1,0 +1,265 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    padding-top: 56px;
+    background-color: #031f30;
+}
+
+.jumbotron {
+    padding-top: 56px;
+    background: url('/img/bitcoin-g1cb694d5b_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: absolute;
+    top: 500px;
+}
+
+.navbar-custom {
+    background-color: #0e161b;
+}
+
+#avatar {
+    border-radius: 50%;
+}
+
+#titre {
+    font-size: 50px;
+    margin-right: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#span {
+    display: inline-block;
+    border-bottom: 10px solid #FF3F73;
+    border-radius: 20%;
+    padding-bottom: 0.5em;
+}
+
+h1 {
+    margin: 0;
+    color: #212529;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+    padding-top: 40px;
+}
+
+h3 {
+    text-align: center;
+    background-color: #031f30;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    color: rgb(249, 255, 255);
+}
+
+.btn.btn-secondary {
+    border: none;
+}
+
+.card.h-100 {
+    background-color: #0e161b;
+    max-width: 70%;
+    margin: auto;
+}
+
+.card-body {
+    background-color: #0e161b;
+    color: #9cd4f7;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-footer.py-4 {
+    background-color: #0e161b;
+}
+
+.btn.btn-secondary {
+    background-color: #002c66;
+    color: #FF3F73;
+}
+
+#services.container {
+    max-width: 100%;
+    background-color: #031f30;
+    padding-bottom: 2em;
+}
+
+#marchés {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #031f30;
+    max-width: 100%;
+    align-items: center;
+}
+
+#titre-marche {
+    margin-bottom: 0rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: #002c66;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    color: rgb(249, 255, 255);
+}
+
+.parainage.container {
+    background-color: #031f30;
+    max-width: 100%;
+    margin: 0;
+   
+}
+
+.tradingview-widget-container {
+    max-width: 90%;
+    margin: auto;
+}
+
+#nasa {
+    background-color: #031f30;
+    max-width: 100%;
+}
+
+#moon {
+    color: #FF3F73;
+    background-color:#0e161b;
+    max-width: 100%;
+    font-size: 30px;
+   
+}
+
+#titlePhoto {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 22px;
+}
+
+#picture {
+    padding-right: 20em;
+    padding-left: 20em;
+    max-width: 100%;
+    margin: auto;
+}
+
+#parainage {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #031f30;
+}
+
+#parainage a {
+    background-color: #031f30;
+    font-size: 20px;
+    color: white;
+}
+
+h6 {
+    color: white;
+    text-align: center;
+}
+
+.divider-custom .divider-custom-line {
+    align-items: center;
+    width: 100%;
+    max-width: 18rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+}
+
+.divider-custom .divider-custom-line {
+    margin-left: auto;
+}
+
+.divider-custom .divider-custom-line:last-child {
+    margin-right: auto;
+}
+
+.divider-custom .divider-custom-icon {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: #2c3e50;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.divider-custom.divider-light .divider-custom-line {
+    background-color: #FF3F73;
+}
+
+.divider-custom.divider-light .divider-custom-icon {
+    color: #FF3F73;
+  
+}
+
+#explanation {
+    padding: 2em;
+    padding-bottom: 80px;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #0e161b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 50px;
+    color: #FF3F73;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: cornsilk;
+    opacity: 0.25;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
+.footer .fa-heart {
+    color: #D23333;
+}
+
+@media screen and (max-width: 900px) {
+    #picture {
+        padding-right: 2em;
+        padding-left: 2em;
+        padding-bottom: 1em;
+        max-width: 100%;
+        margin: auto;
+    }
+    #explanation {
+        margin-bottom: 30px;
+    }
+    .col-md-4.mb-4 {
+        padding-bottom: 1.5em;
+    }
+}
